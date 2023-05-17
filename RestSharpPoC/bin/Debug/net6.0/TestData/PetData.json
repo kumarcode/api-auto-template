@@ -1,0 +1,15 @@
+{
+  "name": "Kumar",
+  "id": "1",
+  "category": {
+    "id": "1",
+    "name": "Kumar"
+  },
+  "tags": [
+    {
+      "id": "1",
+      "name": "Kumar"
+    }
+  ],
+  "status": "available"
+}

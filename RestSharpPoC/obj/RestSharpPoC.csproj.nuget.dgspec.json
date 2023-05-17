@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Kumar\\Repo\\API-POC\\RestSharp_POC\\RestSharpPoC\\RestSharpPoC\\RestSharpPoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Kumar\\Repo\\API-POC\\RestSharp_POC\\RestSharpPoC\\RestSharpPoC\\RestSharpPoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kumar\\Repo\\API-POC\\RestSharp_POC\\RestSharpPoC\\RestSharpPoC\\RestSharpPoC.csproj",
+        "projectName": "RestSharpPoC",
+        "projectPath": "C:\\Kumar\\Repo\\API-POC\\RestSharp_POC\\RestSharpPoC\\RestSharpPoC\\RestSharpPoC.csproj",
+        "packagesPath": "C:\\Users\\kkarthikeyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Kumar\\Repo\\API-POC\\RestSharp_POC\\RestSharpPoC\\RestSharpPoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kkarthikeyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

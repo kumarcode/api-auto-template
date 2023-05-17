@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="SpecFlow" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.74" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TestData\PetData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Feature\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+</Project>
